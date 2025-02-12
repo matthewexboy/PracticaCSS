@@ -2,15 +2,37 @@
 <html>
     <head>
         <script src="https://kit.fontawesome.com/ddb16a820f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./global.css">
+        <title>Practica CSS</title>
     </head>
 
     <body>
+        <h1>Practica de Mateo Saez</h1>
         <ul>
-            <li><i class="fa-brands fa-twitter"><p>Twitter</p></i></li>
-            <li><i class="fa-brands fa-github"><p>GitHub</p></i></li>
-            <li><i class="fa-brands fa-youtube"><p>Youtube</p></i></li>
-            <li><i class="fa-solid fa-envelope"><p>Email</p></i></li>
-            <li><i class="fa-brands fa-linkedin"><p>LinkedIn</p></i></li>
+            <li><a href="https://twitter.com"><i class="fa-brands fa-twitter"><p>Twitter</p></i></a></li>
+            <li><a href="https://github.com/"><i class="fa-brands fa-github"><p>GitHub</p></i></a></li>
+            <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"><p>Youtube</p></i></a></li>
+            <li><a href="https://workspace.google.com/intl/es/gmail/"><i class="fa-solid fa-envelope"><p>Email</p></i></a></li>
+            <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"><p>LinkedIn</p></i></a></li>
         </ul>
     </body>
 </html>
+
+<style>
+    ul{
+        flex-direction: column;
+    }
+
+    li{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .li{
+        display: flex;
+        align-items: center;
+    }
+</style>
