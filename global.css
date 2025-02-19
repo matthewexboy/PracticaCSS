@@ -1,5 +1,5 @@
 html{
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:'Atomic Age';
 }
 
 body {
@@ -13,13 +13,19 @@ ul{
 li{
     flex-direction: column;
 }
-.li{
+
+a {
     display: flex;
     align-items: center;
+    gap: 5px;
 }
 
-li:hover{
+a:hover{
     background-color:aquamarine;
     align-items: center;
     width: fit-content;
+}
+
+p{
+    font-family: 'Atomic Age';
 }
