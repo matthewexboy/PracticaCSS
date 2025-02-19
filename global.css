@@ -5,3 +5,21 @@ html{
 body {
     color:coral
 }
+ul{
+    flex-direction: column;
+    margin-left: 9px;
+}
+
+li{
+    flex-direction: column;
+}
+.li{
+    display: flex;
+    align-items: center;
+}
+
+li:hover{
+    background-color:aquamarine;
+    align-items: center;
+    width: fit-content;
+}
